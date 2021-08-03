@@ -1,0 +1,68 @@
+/***** Basic style *****/
+body, html {
+    height: 100%;
+    background-color: #ddd;
+    margin: 0;
+}
+
+/***** main div style *****/
+.main {
+    width: 100%;
+    margin: auto;
+    height: 90%;
+    position: relative;
+    /*border: 1px solid black;*/
+
+}
+
+/***** left_panel div style *****/
+.left_panel {
+    margin-top: 200px !important;
+    border: 1px solid black;
+    border-radius: 50px;
+    box-shadow: 0px 0px 4px 2px #999;
+    background-color: white;
+}
+
+/***** right_panel div style *****/
+.right_panel {
+    margin-top: 200px !important;
+    border: 1px solid black;
+    border-radius: 50px;
+    box-shadow: 0px 0px 2px 2px #999;
+    background-color: white;
+}
+
+.container {
+    height: 90% !important;
+}
+
+.form {
+    margin-top: 175px !important;
+}
+
+input {
+    border: 1px solid black !important;
+    background-color: #eee !important;
+}
+
+/*****  style for centering text *****/
+.center {
+    text-align: center;
+}
+/*****  style for avatar image *****/
+#user_image {
+    width: 100%;
+    border-radius: 50%;
+    border: 1px solid black;
+    box-shadow: 0px 0px 4px 2px #555;
+    display: none;
+}
+/*****  style for handling error *****/
+.red {
+    color: red;
+}
+
+.border-red {
+    border: 2px solid red !important;
+}
